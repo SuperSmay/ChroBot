@@ -1,0 +1,58 @@
+{
+    "example" : {
+        "description" : "An example macro",
+        "color" : 16559363,
+        "embed" : true
+    },
+    "chromapper" : {
+        "title" : "ChroMapper",
+        "description" : "ChroMapper is an open source Beat Saber mapping tool developped primarily by <@137393289845407745> and <@98334361564246016>",
+        "color" : 16559363,
+        "embed" : true,
+        "icon" : "https://cdn.discordapp.com/icons/702230714585710602/a_c18265864fbd9cbc91148e840c80f5ec.webp?size=96"
+    },
+    "envrep" : {
+        "title" : "Does Chromapper show environment enhancement/removal?",
+        "description" : "This is a well-requested feature, but for now the answer is \"No.\" For as long as ChroMapper uses recreations of the Beat Saber environments, the ChroMapper environments will never be truly accurate to the Beat Saber equivalents. With that fact, trying to implement Environment Enhancement support will be a pain for everyone involved.",
+        "color" : 16559363,
+        "embed" : true
+    },
+    "howdonoodle" : {
+        "title" : "How do I use Noodle Extensions in ChroMapper?",
+        "description" : "ChroMapper supports precision placement, placement of custom events, and editing of note JSON to add/modify Noodle effects in the node editor. ChroMapper does **not** display or provide tools for animations, note scale, etc. Most Noodle mappers use custom scripts and other tools to generate animations and walls, and only use ChroMapper for placing the initial map before they animate it. For more info, look [here](https://github.com/Aeroluna/Heck/wiki)",
+        "color" : 16559363,
+        "embed" : true
+    },
+    "mappingext" : {
+        "title" : "How do I use Mapping Extensions in ChroMapper?",
+        "description" : "Please don't. Just use Noodle Extensions.",
+        "color" : 16559363,
+        "embed" : true
+    },
+    "envremove" : {
+        "title" : "How do I remove something from the environment in my map?",
+        "description" : "The small pickaxe icon on the difficulty edit screen allows you to input names of environment pieces to remove. To get the names of environment pieces:\n\t:small_blue_diamond:**On PC**: Find UserData/Chroma.json and set \"PrintEnvironmentEnhancementDebug\" to `true` then load a map that has Chroma as a suggestion or requirement. `Logs/Chroma/_latest.log` should now contain a list of environment objects for the last envrionment you loaded.\n\t:small_blue_diamond:**On Quest**: Find `/sdcard/ModData/com.beatgames.beatsaber/Configs/Chroma.json` and set \"PrintEnvironmentEnhancementDebug\" to `true`  then load a map that has Chroma as a suggestion or requirement. `/sdcard/Android/data/com.beatgames.beatsaber/files/logs/Chroma_WhateverVersionItIs.log`  should now contain a list of environment objects for the last envrionment you loaded.",
+        "color" : 16559363,
+        "embed" : true
+    },
+    "plugins" : {
+        "title" : "How do I install a plugin to ChroMapper?",
+        "description" : "Plugins are found in <#719100127964299345>. Download the most recent version and unzip the folder into `chromapper/plugins`. ",
+        "color" : 16559363,
+        "embed" : true,
+        "image" : "https://cdn.discordapp.com/attachments/778383712499793940/929132906641776640/unknown.png"
+    },
+    "scripts" : {
+        "title" : "How do I install a script to ChroMapper?",
+        "description" : "Scripts are found in <#837133038466498560>. Download the most recent version of the plugin CM-JS, and put the scripts into `chromapper/plugins/cm-js`. Press tab in editor to find the CM-JS menu.",
+        "color" : 16559363,
+        "embed" : true,
+        "image" : "https://cdn.discordapp.com/attachments/778383712499793940/929133156089610320/unknown.png"
+    },
+    "updateplugins" : {
+        "title" : "I get an error whenever I place a note",
+        "description" : "You need to update to the most recent version to of the plugins you have installed. With the exception of AutoBookmarker which must be found on github, they can be found in <#719100127964299345>",
+        "color" : 16559363,
+        "embed" : true
+    }
+}
